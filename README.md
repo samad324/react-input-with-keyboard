@@ -4,6 +4,8 @@
 
 ![](previews/1.gif)
 
+Watch Demo [Here](https://samad324.github.io/react-input-with-keyboard-example/)
+
 ## Installation
 
 You can install this package with the following command:
