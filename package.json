@@ -1,6 +1,6 @@
 {
   "name": "react-input-with-keyboard",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A simple input component with on-screen keyboard for react application.",
   "main": "build/index.js",
   "scripts": {
@@ -24,6 +24,7 @@
     "@babel/preset-env": "^7.7.7",
     "@babel/preset-es2015": "^7.0.0-beta.53",
     "@babel/preset-react": "^7.7.4",
+    "autoprefixer": "^9.7.3",
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^8.0.2",
     "babel-jest": "^24.9.0",
@@ -38,6 +39,7 @@
     "file-loader": "^5.0.2",
     "mini-css-extract-plugin": "^0.9.0",
     "polished": "^1.8.2",
+    "postcss-loader": "^3.0.0",
     "react-dom": "^16.0.0",
     "regenerator-runtime": "^0.13.3",
     "styled-components": "^2.2.3",
