@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inpContainer {
+  width: 66%;
+}
+
+.keyContainerClass {
+  background-color: #333;
+}
+
+.keyboardKeyStyles {
+  font-family: "comic sans ms";
+}
