@@ -1,0 +1,114 @@
+.keyBoardMainContainer {
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  width: 550px;
+}
+
+.numaricKeyboardContainer {
+  width: 260px;
+  justify-content: center;
+}
+
+.numaricKeys {
+  width: 23.4% !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.px-6 {
+  padding-left: 6px !important;
+  padding-right: 6px !important;
+}
+
+.grow1 {
+  flex-grow: 1;
+}
+
+.keyContainer {
+  /* width: 9%; */
+  width: 46px;
+  height: 46px;
+  background-color: #454b92;
+  /* height: 30px; */
+  border: 1px solid #eee;
+  -webkit-box-shadow: 0px 0px 37px -19px rgba(0, 0, 0, 0.66);
+  -moz-box-shadow: 0px 0px 37px -19px rgba(0, 0, 0, 0.66);
+  box-shadow: 0px 0px 37px -19px rgba(0, 0, 0, 0.66);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2px;
+}
+.keyContainer:active {
+  -webkit-box-shadow: 0px 0px 37px -19px rgba(0, 0, 0, 0.74);
+  -moz-box-shadow: 0px 0px 37px -19px rgba(0, 0, 0, 0.74);
+  box-shadow: 0px 0px 37px -19px rgba(0, 0, 0, 0.747);
+}
+
+.justify-space-Between {
+  justify-content: space-between;
+}
+
+.keytext {
+  /* padding: 10px; */
+  color: #fff;
+  margin: 0;
+  font-size: 18px;
+  padding: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.keySmallText {
+  /* align-self: flex-start; */
+  font-size: 12px;
+}
+
+.unshiftText {
+  font-size: 9px;
+}
+
+.backspaceIconImg {
+  width: 22px;
+}
+
+.lettersKey {
+  width: 51px;
+  height: 51px;
+}
+
+@media (max-width: 612px) {
+  .keyBoardMainContainer {
+    width: 400px;
+  }
+  .keyContainer {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+@media (max-width: 426px) {
+  .keyBoardMainContainer {
+    width: 280px;
+  }
+  .keyContainer {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media (max-width: 256px) {
+  .keyBoardMainContainer {
+    width: 240px;
+  }
+  .keyContainer {
+    width: 19px;
+    height: 19px;
+  }
+  .keytext {
+    font-size: 14px;
+  }
+}

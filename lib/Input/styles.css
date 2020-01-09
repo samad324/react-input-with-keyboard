@@ -1,0 +1,32 @@
+.Inpwrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.leftTextStyle {
+  color: #333;
+  margin-top: 20px;
+}
+
+.inpWithText {
+  height: 52px !important;
+  border-radius: 0 !important;
+}
+
+.ant-input {
+  font-size: 18px !important;
+  font-weight: 500 !important;
+}
+
+.inputBtnKeyboard {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+.inputBtnKeyboard:active {
+  border: none;
+  outline: none;
+}
+.inputBtnKeyboard:hover {
+  border: none;
+  outline: none;
+}

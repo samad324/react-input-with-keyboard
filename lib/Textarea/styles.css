@@ -1,0 +1,59 @@
+
+.inpTextAndPopOver {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 0.5em;
+}
+
+.textAreaContent {
+  position: relative;
+  top: 96px;
+  right: 6px;
+  z-index: 2;
+}
+
+.inpWithText::-webkit-input-placeholder {
+  font-size: 18px;
+  font-family: "MyriadPro";
+}
+
+.inpWithText:-ms-input-placeholder {
+  font-size: 18px;
+  font-family: "MyriadPro";
+}
+
+.inpWithText::placeholder {
+  font-size: 18px;
+  font-family: "MyriadPro";
+}
+
+@media (max-width: 648px) {
+  .leftTextStyle {
+    font-size: 18px;
+  }
+  .inpWithText::-webkit-input-placeholder {
+    font-size: 12px;
+    font-family: "MyriadPro";
+  }
+
+  .inpWithText:-ms-input-placeholder {
+    font-size: 12px;
+    font-family: "MyriadPro";
+  }
+
+  .inpWithText::placeholder {
+    font-size: 12px;
+    font-family: "MyriadPro";
+    width: 100%;
+    height: 100%;
+    padding: 3px 0px;
+  }
+}
+
+@media (max-width: 360px) {
+  .leftTextStyle {
+    font-size: 14px;
+  }
+}
