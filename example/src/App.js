@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import { TextInput, Textarea } from "react-input-with-keyboard";
 import "./index.css";
 
+// import "antd/dist/antd.css";
+import "react-input-with-keyboard/dist/index.css";
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -22,15 +25,7 @@ class App extends Component {
     const { input1Val, input2Val, input3Val } = this.state;
     return (
       <div className="App">
-        <h4>React Input with Keyboard</h4>
-        <TextInput
-          text={"Input with full keyboard"}
-          placeholder="Please Scan Your Badge..."
-          value={input1Val}
-          containerClassName="inpContainer"
-          keyboardKeyClassName="keyboardKeyStyles"
-          onChange={text => this.onChangeTextField("input1Val", text)}
-        />
+        abc
         <TextInput
           text={"Input with numaric keyboard"}
           placeholder="Please Scan Your Badge..."

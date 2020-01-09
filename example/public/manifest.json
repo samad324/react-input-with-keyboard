@@ -1,0 +1,8 @@
+{
+  "short_name": "react-input-with-keyboard",
+  "name": "react-input-with-keyboard",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

@@ -25,6 +25,9 @@ import React, { Component } from "react";
 import { TextInput, Textarea } from "react-input-with-keyboard";
 import "./App.css";
 
+// don't forget to import css file.
+import "react-input-with-keyboard/dist/index.css";
+
 class App extends Component {
   constructor(props) {
     super(props);

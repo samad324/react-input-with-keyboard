@@ -1,8 +1,6 @@
 # dependencies
 /node_modules
 
-# testing
-/coverage
 
 # misc
 .DS_Store
@@ -16,11 +14,8 @@ yarn-debug.log*
 yarn-error.log*
 
 # Development folders and files
-public
 src
-scripts
-config
+example
 demo
 .travis.yml
 CHANGELOG.md
-README.md
